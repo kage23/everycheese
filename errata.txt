@@ -13,3 +13,17 @@ before executing Step 19.2, you must run the following commands:
 
 After running those three commands, continue with Step 19.2 and the rest of
 the tutorial.
+
+
+
+
+29 Trying Out the Cheese Model
+
+In Step 29.3, when instantiating a Cheese object, on the third line of the
+description, DON'T TYPE THE FINAL COMMA AT THE END OF THE LINE.
+
+The line should look like this:
+
+                'creamy cheese that was first created in 1885'
+
+with no final comma at the end of the line.
