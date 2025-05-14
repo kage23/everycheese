@@ -1,0 +1,15 @@
+19 Starting Up Our New Django Project
+
+If you follow the instructions exactly as written, you'll end up installing
+some packages that are newer versions than intended, with breaking changes,
+and you won't be able to continue with the tutorial.
+
+In order to get everything working correctly, after executing Step 19.1 and
+before executing Step 19.2, you must run the following commands:
+
+- `pip uninstall setuptools`
+- `pip install setuptools==60.5.0`
+- `brew install libtiff libjpeg webp little-cms2`
+
+After running those three commands, continue with Step 19.2 and the rest of
+the tutorial.
