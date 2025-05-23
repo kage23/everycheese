@@ -40,3 +40,20 @@ in the screenshot in the book. In your search results, the top result
 should be a package called "Countries", and the description should start
 with "Grid: List of packages". If you click on the package name, then you
 should be taken to a grid page that matches the screenshot in the book.
+
+
+
+
+47 Implement Cheese Creation by Users
+
+In 47.1, we already have a `from django.views.generic` import line in our
+`cheeses/views.py` file. So all we have to do is add `CreateView` to that
+import:
+
+```
+from django.views.generic import CreateView, ListView, DetailView
+```
+
+In 47.5, and for the rest of the book, all of the screenshots of the app itself
+have a fancier header (with a block of cheese image and cursive text) that we
+don't have in our version. Oh well! ¯\_(ツ)_/¯
