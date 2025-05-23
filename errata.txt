@@ -27,3 +27,16 @@ The line should look like this:
                 'creamy cheese that was first created in 1885'
 
 with no final comma at the end of the line.
+
+
+
+
+45 Finding and Adding a Third-Party Countries App
+
+In 45.3 Check Django Packages, there is a step missing. After entering
+`countries` in the search bar, you will find yourself on
+`https://djangopackages.org/search/?q=countries`, which is not the page
+in the screenshot in the book. In your search results, the top result
+should be a package called "Countries", and the description should start
+with "Grid: List of packages". If you click on the package name, then you
+should be taken to a grid page that matches the screenshot in the book.
