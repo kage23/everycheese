@@ -57,3 +57,15 @@ from django.views.generic import CreateView, ListView, DetailView
 In 47.5, and for the rest of the book, all of the screenshots of the app itself
 have a fancier header (with a block of cheese image and cursive text) that we
 don't have in our version. Oh well! ¯\_(ツ)_/¯
+
+
+
+
+54 Test All the Cheese Views
+
+In 54.3.3, the UserFactory import doesn't need its own line; just group it with
+the other .factories import.
+
+```
+from .factories import CheeseFactory, UserFactory
+```
